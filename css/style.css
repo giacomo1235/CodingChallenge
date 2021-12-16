@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  h1{
+      color: RGB(0,236,0);
+      font-weight: normal;
+  }
+  
+  
+  .bg {
+    background-image: url("../img/background.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg .bg-text { 
+    background-color: rgba(0,0,0, 0.5); 
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 78%;
+    padding: 10px;
+  }
+  .bg .bg-text .logo{
+    text-align: center;
+  }
+  .bg .bg-text .title{
+    text-align: center;
+  }
+
+  .bg .bg-text .navbar{
+      background-color: RGB(0,236,0);
+      padding: 10px 300px;
+      text-align: center;
+  }
+  .bg .bg-text .checkbox{
+      margin-top: 20px;
+      font-size: 24px;
+      
+  }
+  .bg .bg-text .checkbox p{
+    /* margin-top: 10px; */
+    line-height: 1.6; 
+    font-size: 16px;  
+    margin: 0; 
+  }
+  .bg .bg-text .checkbox .button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .button1 {
+      width: 49%;
+    background-color: orange;
+    margin-bottom: 25px;
+}
+.button2{
+    width: 80%;
+    background-color: green;
+    margin-bottom: 25px;
+}
+.button3{
+    width: 19%;
+    background-color: red;
+    margin-bottom: 25px;
+}
